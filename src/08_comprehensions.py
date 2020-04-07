@@ -34,8 +34,8 @@ a = ["foo", "bar", "baz"]
 
 y = []
 
-for element in a:
-  y.append(element.upper())
+for elements in a:
+  y.append(elements.upper())
 
 print(y)
 
